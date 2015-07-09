@@ -5,3 +5,13 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+
+@media screen and (max-width: 975px) {
+	html {
+		background: url(../../img/comingsoon.png) no-repeat center center fixed; 
+	 	-webkit-background-size: contain;
+	 	-moz-background-size: contain;
+		-o-background-size: contain;
+		background-size: contain;
+	}
+}
